@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "scale-unlimited/declaration-strict-value": ["/color$/", {
+      "expandShorthand": true,
+      "ignoreValues": ["transparent", "inherit", "none"],
+      "ignoreFunctions": false
+    }]
+  },
+  "ignoreFiles": ["node_modules/**"],
+  "plugins": [
+    "stylelint-declaration-strict-value"
+  ]
+}

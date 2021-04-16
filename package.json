@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-declaration-strict-value-expandshorthand-issue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "stylelint **/*.less --syntax less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmatushevskiy/stylelint-declaration-strict-value-expandShorthand-issue.git"
+  },
+  "keywords": [
+    "stylelint-declaration-strict-value"
+  ],
+  "author": "Nikita Matushevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmatushevskiy/stylelint-declaration-strict-value-expandShorthand-issue/issues"
+  },
+  "homepage": "https://github.com/nmatushevskiy/stylelint-declaration-strict-value-expandShorthand-issue#readme",
+  "dependencies": {
+    "stylelint": "^13.12.0",
+    "stylelint-declaration-strict-value": "^1.7.10"
+  }
+}
